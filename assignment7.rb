@@ -18,7 +18,7 @@ end
 
 	students["Cohort4"] = 43
 
-	students.delete(":cohort2")
+	puts students.delete(:cohort2)
 
 round_up(students)
 
